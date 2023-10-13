@@ -42,7 +42,7 @@ export default function App() {
       {/* <Router> */}
       <Navbar title="TextUtils" aboutText="About TextUtils" mode={mode} toggleMode={toggleMode}/>
       <Alert alertType={alertType} />
-      <TextForm heading="Enter text for the analyze below" mode={mode}/>
+      <TextForm heading="Enter the text for the analyze below" mode={mode}/>
       {/* <Routes>
         <Route exact path="/about" element={<About />} />
         <Route exact path="/" element={<TextForm heading="Enter text for the analyze below" mode={mode}/> } />
